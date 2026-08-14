@@ -1,0 +1,17 @@
+source_path,skill_name,origin,decision,reason,license
+/workspaces/default/sessions/08f65ab2-847d-463a-9c8f-836e31d5bb73/claude/plugins/custom-skills/skills/canary,canary,custom-skills,exclude,C2 fail: requires browse daemon,
+/workspaces/default/sessions/08f65ab2-847d-463a-9c8f-836e31d5bb73/claude/plugins/custom-skills/skills/claude,claude,custom-skills,exclude,meta artifact — not a v0 behavior skill,
+/workspaces/default/sessions/08f65ab2-847d-463a-9c8f-836e31d5bb73/claude/plugins/custom-skills/skills/dts,dts,custom-skills,exclude,meta artifact — not a v0 behavior skill,
+/workspaces/default/sessions/08f65ab2-847d-463a-9c8f-836e31d5bb73/claude/plugins/custom-skills/skills/figma-make-skills,figma-make-skills,dobeu,include-copy,Dobeu-owned; v0-native instruction skill,proprietary-dobeu
+/workspaces/default/sessions/08f65ab2-847d-463a-9c8f-836e31d5bb73/claude/plugins/custom-skills/skills/skillspack,skillspack,custom-skills,exclude,meta artifact — not a v0 behavior skill,
+/workspaces/default/sessions/08f65ab2-847d-463a-9c8f-836e31d5bb73/claude/plugins/make/skills/aesthetic-stance,aesthetic-stance,plugin:make,reference-public,skills.sh unreachable; add manually if public,unknown
+/workspaces/default/sessions/08f65ab2-847d-463a-9c8f-836e31d5bb73/claude/plugins/make/skills/design-imports,design-imports,plugin:make,reference-public,skills.sh unreachable; add manually if public,unknown
+/workspaces/default/sessions/08f65ab2-847d-463a-9c8f-836e31d5bb73/claude/plugins/make/skills/icon-illustration,icon-illustration,plugin:make,reference-public,skills.sh unreachable; add manually if public,unknown
+/workspaces/default/sessions/08f65ab2-847d-463a-9c8f-836e31d5bb73/claude/plugins/make/skills/image-attachments,image-attachments,plugin:make,reference-public,skills.sh unreachable; add manually if public,unknown
+/workspaces/default/sessions/08f65ab2-847d-463a-9c8f-836e31d5bb73/claude/plugins/make/skills/make-deploy,make-deploy,plugin:make,exclude,C2 fail: requires figma logs; figma make verify,unknown
+/workspaces/default/sessions/08f65ab2-847d-463a-9c8f-836e31d5bb73/claude/plugins/make/skills/make-kit,make-kit,plugin:make,reference-public,skills.sh unreachable; add manually if public,unknown
+/workspaces/default/sessions/08f65ab2-847d-463a-9c8f-836e31d5bb73/claude/plugins/make/skills/motion-context,motion-context,plugin:make,reference-public,skills.sh unreachable; add manually if public,unknown
+/workspaces/default/sessions/08f65ab2-847d-463a-9c8f-836e31d5bb73/claude/plugins/make/skills/react-router,react-router,plugin:make,reference-public,skills.sh unreachable; add manually if public,unknown
+/workspaces/default/sessions/08f65ab2-847d-463a-9c8f-836e31d5bb73/claude/plugins/make/skills/supabase,supabase,plugin:make,exclude,C2 fail: requires supabase_connect,unknown
+/workspaces/default/sessions/08f65ab2-847d-463a-9c8f-836e31d5bb73/claude/plugins/make/skills/unsplash,unsplash,plugin:make,exclude,C2 fail: requires search_photos,unknown
+/workspaces/default/sessions/08f65ab2-847d-463a-9c8f-836e31d5bb73/claude/plugins/conversation/skills/ask_user_question,ask_user_question,plugin:conversation,exclude,C1 fail: name fails lowercase-hyphen regex,unknown
