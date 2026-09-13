@@ -1,0 +1,16 @@
+tasks:
+  validate:
+    name: Validate skills
+    command: python3 tools/validate.py skills/
+    triggeredBy:
+      - manual
+  test:
+    name: Run validator tests
+    command: python3 tests/test_validate.py
+    triggeredBy:
+      - manual
+  build:
+    name: Build skills pack
+    command: python3 tools/build_zip.py
+    triggeredBy:
+      - manual
